@@ -1,0 +1,34 @@
+* {
+    padding:0;
+    margin:0;
+}
+nav a, ul{
+display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ;
+list-style-type: none;
+font-size: larger;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {background:red;}
+body {background:orange;}
+p {
+    line-height:2;
+    text-indent: 50px;
+    margin-left:250px;
+    margin-right:250px;
+    text-align: justify;
+    font-size:26px;
+}
+iframe{
+    padding-top: 15px;
+}
+h2{
+    text-size-adjust: 30px;
+}
